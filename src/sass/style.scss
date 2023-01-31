@@ -1,0 +1,18 @@
+@import 'base/_variables.scss';
+
+
+* {
+    font-family:'Museo Sans', sans-serif;
+}
+.container {
+    max-width: 950px;
+    margin: 0 auto;
+}
+
+a{
+    text-decoration: none;
+}
+
+@import 'blocks/_promo.scss';
+@import 'blocks/_header.scss';
+@import 'blocks/buttons'
