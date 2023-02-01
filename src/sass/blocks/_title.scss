@@ -2,5 +2,12 @@
     text-align: center;
     font-weight: 700;
     font-size: 30px;
-    color: #0D0D0D
+    color: #0D0D0D;
+    text-transform: uppercase;
+    &_consult {
+        text-align: left;
+        font-size: 36px;
+        line-height: 54px;
+        color: #FFFFFF;
+    }
 }
