@@ -40,9 +40,12 @@
     }
     &__content {
         margin-top: 60px;
-        display: flex;
         justify-content: space-between;
         flex-wrap: wrap;
+        display: none;
+        &_active {
+            display: flex;
+        }
     }
     &-item {
         width: 300px;
@@ -79,6 +82,7 @@
             font-size: 14px;
             text-align: center;
             text-decoration-line: underline;
+            text-transform: uppercase;
             color: $main-color;
             &:hover {
                 color: $main-color;
@@ -115,7 +119,7 @@
             width: 50%;
             margin-right: 0px;
             transform: translateX(-100%);
-            transition: 0.5s all;    
+            transition: 0.5s all;  
             &_active {
                 transform: translateX(0%);
                 margin-right: 20px;
@@ -163,6 +167,7 @@
             font-size: 14px;
             text-align: center;
             text-decoration-line: underline;
+            text-transform: uppercase;
             &:hover {
                 color: $main-color;
             }
