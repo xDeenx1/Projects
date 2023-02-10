@@ -85,4 +85,19 @@ $(document).ready(function(){
 
     $('input[name=phone]').mask("+38 (999) 999-9999");
 
+    $('form').submit(function(e) {
+        e.preventDefault();
+        $.ajax({
+            type: 'POST',
+            url: 'mailer/smart.php',
+            data: $(this).serialize()
+        }).done(function() {
+            $(this).find('input').val('');
+
+
+            $('form').trigger('reset');
+        });
+        return false;
+    });
+
   });
