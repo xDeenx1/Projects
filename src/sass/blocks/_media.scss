@@ -120,6 +120,11 @@
         &_main {
             margin-top: 51px;
         }
+        &_item {
+            width: 100px;
+            height: 25px;
+            font-size: 12px;
+        }
     }
     .advantages {
         &__icon {
@@ -135,5 +140,119 @@
         &_consult {
             line-height: 44px;
         }
+    }
+    .slider {
+        padding: 40px 0; 
+    }
+    .catalog {
+        padding-bottom: 30px;
+        &__tabs {
+            margin-top: 30px;
+        }
+        &__tab {
+            height: 30px;
+            font-size: 14px;
+            line-height: 28px;
+        }
+        &__content {
+            margin-top: 30px;
+        }
+        &-item {
+            width: 225px;
+            min-height: 325px;
+            &__img {
+                height: 100px;
+            }
+            &__subtitle {
+                font-size: 12px;
+            }
+            &__descr {
+                margin-top: 10px;
+                font-size: 12px;
+                line-height: 16px;
+                padding-right: 20px;
+            }
+            &__link {
+                margin-top: 10px;
+                font-size: 12px;
+            }
+            hr {
+                margin-top: 15px;
+                margin-bottom: 15px;
+            }
+            &__old-price {
+                font-size: 10px;
+            }
+            &__price {
+                font-size: 12px;
+            }
+            &__list {
+                min-height: 219px;
+                li {
+                    font-size: 10px;
+                    line-height: 11px;
+                }
+            }
+            &__back {
+                font-size: 12px;
+            }
+        }
+    }
+    .feed {
+        &__item {
+            margin-top: 40px;
+        }
+        &__img {
+            margin-top: 30px;
+        }
+        &__subtitle {
+            font-size: 14px;
+        }
+        &__count {
+            font-size: 13px;
+        }
+        &__descr {
+            font-size: 12px;
+            line-height: 17px;
+        }
+    }
+    .footer {
+        min-height: 475px;
+        &__map {
+            iframe {
+                height: 475px;
+            }
+        }
+        &__info {
+            width: 260px;
+            height: 205px;
+            padding: 20px 50px 45px 50px;
+        }
+        &__addr {
+            margin-bottom: 26px;
+            font-size: 17px;
+            line-height: 17px;
+        }
+        &__phone {
+            font-size: 15px;
+            line-height: 17px;
+            margin-bottom: 15px;
+        }
+        &__social {
+            width: 150px;
+            &-item {
+                width: 35px;
+                height: 35px;
+                img {
+                    height: 17px;
+                }
+            }
+        }
+    }
+    .pageup {
+        bottom: 20px;
+        right: 20px;
+        width: 25px;
+        height: 25px;
     }
 }

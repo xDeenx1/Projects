@@ -1,4 +1,9 @@
 .footer {
+    &__map {
+        iframe {
+            height:630px;
+        }
+    }
     min-height: 630px;
     position: relative;
     &__info {
@@ -36,7 +41,7 @@
         justify-content: center;
         align-items: center;
         width: 53px;
-        height: 52px;
+        height: 53px;
         background: rgba(0, 0, 0, 0.0001);
         border: 2px solid #FFFFFF;
         border-radius: 100%;
