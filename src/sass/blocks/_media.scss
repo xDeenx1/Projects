@@ -160,9 +160,6 @@
         &-item {
             width: 225px;
             min-height: 325px;
-            &__content {
-                padding-right: 20px;
-            }
             &__img {
                 height: 100px;
             }
@@ -189,7 +186,6 @@
                 font-size: 12px;
             }
             &__list {
-                min-height: 219px;
                 li {
                     font-size: 10px;
                     line-height: 11px;
@@ -379,12 +375,9 @@
         }
         &-item {
             width: 50%;
-            margin: unset;
             padding: 10px 10px;
             min-height: 300px;
-            &__wrapper {
-                width: calc(200% + 40px);
-            }
+            margin: unset;
             hr {
                 margin-top: 1px;
             }
@@ -405,7 +398,6 @@
             &__list {
                 padding-left: 3px;
                 padding-right: 2px;
-                margin-left: 10px;
                 min-height: unset;
                 li {
                     font-size: 10px;
